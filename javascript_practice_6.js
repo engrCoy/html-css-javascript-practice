@@ -24,3 +24,4 @@ let sumOfNPrimes = function (num) {
 }
 
 console.log(sumOfNPrimes(4));
+console.log(sumOfNPrimes(1));
