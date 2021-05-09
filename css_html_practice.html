@@ -1,35 +1,78 @@
 <!DOCTYPE html>
+<style>
+    #top {
+        font-style: italic;
+    }
+    #bottom {
+        font-style: italic;
+    }
+    img{
+        box-shadow:0 0 5px 5px rgba(0,0,0, 0.5);
+        position: relative; 
+        margin: 30px;
+        margin-left: 35%;
+    }
+    h1{
+        font-size: 50px;
+        font-weight: 700;
+        text-align: center;
+    }
+    #main-paragraph {
+        text-align: justify;
+    }
+    nav {
+        display: block;
+    }
+
+</style>
+
+
 <html>
-    <img src = "https://images.unsplash.com/photo-1620277916816-a3b414d77b01?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80https://images.unsplash.com/photo-1620277916816-a3b414d77b01?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Lol, Turtle">
+        <img style = "width: 500px;" src = "https://images.unsplash.com/photo-1620277916816-a3b414d77b01?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80https://images.unsplash.com/photo-1620277916816-a3b414d77b01?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Lol, Turtle">
+
+    
     <head>
         <h1>Turtles are starting to be Endangered</h1>
+        <nav>
+            <a>Home</a>
+            <a>Contact</a>
+            <a>Something</a>
+            <a>Sample</a>
+        </nav>
     </head>
-    <body>
-        <p id="top">Go to the <a href = "#bottom">bottom</a></p>
-        <p>
+    <hr>
+    <div>
+        <p id="top">Go to the <a href = "#bottom">bottom</a> of the page.</p>
+        <p id = "main-paragraph">
             There are multiple turtle species that are being affected by the constant pollution from our daily waste, and improper disposal.
-            Currently, all forms of life are being affected by the consumption of whole plastic waste as well as broken down micro-plastics
-            across all bodies of water. If this isn't stopped as soon as possible we are faced with the harsh reality that we may never see
+            <i>Currently, all forms of life are being affected by the consumption of whole plastic waste as well as broken down micro-plastics
+            across all bodies of water.</i> If this isn't stopped as soon as possible we are faced with the harsh reality that we may never see
             turles like the one shown in the image above.
         </p>
         <br>
-        <p> Here are some of the common waste that we are throwing away in to the sea</p>
-            <ul>
-                <li>Plastic</li>
-                <li>Toxic Waste</li>
-                <li>Oil</li>
-            </ul>
-        <br>
-        <p>
-            Here are some of the organizations that are fighting against pollution
-        </p>
-            <ol>
-                <li>EPA</li>
-                <li>WWF</li>
-                <li>PAWS</li>
-            </ol>
-        <br>
-        <p>
+        <div>
+                <p> Here are some of the common waste that we are throwing away in to the sea</p>
+                <ul>
+                    <li>Plastic</li>
+                    <li>Toxic Waste</li>
+                    <li>Oil</li>
+                </ul>
+            <br>
+            <p>
+                Here are some of the organizations that are fighting against pollution
+            </p>
+                <ol>
+                    <li>EPA</li>
+                    <li>WWF</li>
+                    <li>PAWS</li>
+                </ol>
+            <br>
+            <p>
+        </div>
+
+    </div>
+    <body>
+
             Will we stand for this?
         </p>
         <form>
@@ -67,7 +110,7 @@
             <input placeholder="Any thoughts?" required></input>
             <button type = "submit">SUBMIT</button>
 
-            <footer id = "bottom">Go back to the <a href = "#top">top</a></footer> 
+            <footer id = "bottom">Go back to the <a href = "#top">top</a> of the page.</footer> 
 
 
 
@@ -79,6 +122,3 @@
 
 
 </html>
-
-
-
